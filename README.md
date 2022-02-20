@@ -1,3 +1,12 @@
+# experiment-turborepo
+
+An experiment project that uses:
+- turborepo
+- pnpm
+- radix-ui
+- stitches
+
+
 # Turborepo starter with pnpm
 
 This is an official starter turborepo.
