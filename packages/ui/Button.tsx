@@ -1,4 +1,8 @@
-import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
-};
+import { styled } from "./stitches.config";
+
+export const Button = styled('button', {
+  backgroundColor: 'gainsboro',
+  borderRadius: '9999px',
+  fontSize: '13px',
+  border: '0',
+});
