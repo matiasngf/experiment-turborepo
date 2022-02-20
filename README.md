@@ -7,6 +7,8 @@ An experiment project that uses:
 - stitches
 
 
+It is based on Turborepo starter
+
 # Turborepo starter with pnpm
 
 This is an official starter turborepo.
