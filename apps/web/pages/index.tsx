@@ -5,8 +5,16 @@ export default function Web() {
     <div>
       <h1>Web</h1>
       <Popover>
-        <PopoverTrigger asChild><Button>Go to the website</Button></PopoverTrigger>
-        <PopoverContent>Open <a href="http://localhost:3001" target="_blank" rel="noreferrer">http://localhost:3001</a> to see the Docs</PopoverContent>
+        <PopoverTrigger asChild>
+          <Button>Go to the website</Button>
+        </PopoverTrigger>
+        <PopoverContent>
+          Open{" "}
+          <a href="http://localhost:3001" target="_blank" rel="noreferrer">
+            http://localhost:3001
+          </a>{" "}
+          to see the Docs
+        </PopoverContent>
       </Popover>
     </div>
   );
